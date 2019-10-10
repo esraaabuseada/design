@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ibv-E5-XA0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Design" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2050"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqV-L5-qtb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="1986"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SrZ-CS-ol5">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2050"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="  بحلول الخارجية يكن," textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6q-Bu-EeZ">
+                                                <rect key="frame" x="15" y="0.0" width="345" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2c-U8-eD8">
+                                                <rect key="frame" x="0.0" y="39.5" width="375" height="133"/>
+                                                <string key="text"> جديدبالرّد نفس ن. كانتا بريطانيا-فرنسا لان أيمضبيبديدالمزيفة وقد أ فشكّل الإثنان قد, مكثّفة واقتصار أي يبق. ما وعُرفت استعملت أخر, هذه لم وبداية المتّبعة, في أما يعبأ باستحداث ايبارية. ما حالية قائمة يبيبديديديديديبديليها تكاليف لها ييي٣٠.ويكيبيديا,الهجوم ويكيبيديا.</string>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="19"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="s5L-xd-6jQ">
+                                                <rect key="frame" x="345" y="196" width="15" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="0ri-D7-45M"/>
+                                                    <constraint firstAttribute="width" constant="15" id="nJV-2e-8gS"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="منذ ساعة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Se-Jj-dgP">
+                                                <rect key="frame" x="284" y="194" width="53" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="131" translatesAutoresizingMaskIntoConstraints="NO" id="Dbv-TC-f4u">
+                                                <rect key="frame" x="10" y="236" width="355" height="28"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTv-GO-ZeL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="28"/>
+                                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="3g4-IY-JEl"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <state key="normal" title="منطقة تبوك">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7j-8v-bWp">
+                                                        <rect key="frame" x="231" y="0.0" width="124" height="28"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <state key="normal" title="  تابع موضوع">
+                                                            <color key="titleColor" red="0.10022928533362263" green="0.38404753639097755" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="K7j-8v-bWp" secondAttribute="trailing" id="bSb-cT-Riw"/>
+                                                    <constraint firstItem="K7j-8v-bWp" firstAttribute="leading" secondItem="JTv-GO-ZeL" secondAttribute="trailing" constant="131" id="sbe-1n-2YN"/>
+                                                </constraints>
+                                            </stackView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02-News detalise_dark" translatesAutoresizingMaskIntoConstraints="NO" id="5UL-13-vtg">
+                                                <rect key="frame" x="0.0" y="272" width="375" height="176"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="176" id="3B7-lP-Je0"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="naS-gk-GeK">
+                                                <rect key="frame" x="10" y="469" width="336" height="15"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fe8-4T-Jzn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="52" height="15"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="١٧١٢٢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pce-lf-GMO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="15"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat-circular-bubble-with-message-text-lines" translatesAutoresizingMaskIntoConstraints="NO" id="Pqa-QO-W5f">
+                                                                <rect key="frame" x="37" y="0.0" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="15" id="QDo-Wr-a6o"/>
+                                                                    <constraint firstAttribute="height" constant="15" id="StA-kh-zTV"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="dD2-h2-uvs">
+                                                        <rect key="frame" x="142" y="0.0" width="52" height="15"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="١٧١٢٢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mpm-BY-NaC">
+                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="15"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart-2" translatesAutoresizingMaskIntoConstraints="NO" id="q43-5u-Ek8">
+                                                                <rect key="frame" x="37" y="0.0" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="15" id="0ni-66-hFN"/>
+                                                                    <constraint firstAttribute="width" constant="15" id="P0f-pc-Cjl"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FLa-qu-Tb1">
+                                                        <rect key="frame" x="284" y="0.0" width="52" height="15"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="١٧١٢٢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLF-6e-hzr">
+                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="15"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fire-2" translatesAutoresizingMaskIntoConstraints="NO" id="ufB-Ac-MhN">
+                                                                <rect key="frame" x="37" y="0.0" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="15" id="3NB-lq-ady"/>
+                                                                    <constraint firstAttribute="height" constant="15" id="fFu-rW-6SA"/>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="15" id="g35-e1-Qy0"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02-News detalise_dark" translatesAutoresizingMaskIntoConstraints="NO" id="ZfL-xz-CbF">
+                                                <rect key="frame" x="301" y="512" width="66" height="58"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="58" id="ECh-fX-ybU"/>
+                                                    <constraint firstAttribute="width" constant="66" id="Tmx-eP-prf"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="وكالة الانباء السعودية | الرياض    " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qa-gq-hOf">
+                                                <rect key="frame" x="71" y="530" width="212" height="16"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ccn-Yy-rk6">
+                                                <rect key="frame" x="8" y="584" width="359" height="255"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="255" id="NgL-W5-L6v"/>
+                                                </constraints>
+                                                <string key="text">-فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة واقتصار أي يبق. ما وعُرفت استعملت أخر, هذه لم وبداية المتّبعة, في أما يعبأ باستحداث ايبارية. ما حالية قائمة يبيبديديديديديبديليها تكاليف لها ييي٣٠.ويكيبيديا,الهجوم ويكيبيديا.    -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة واقتصار أي يبق. ما وعُرفت استعملت أخر, هذه لم وبداية المتّبعة, في أما يعبأ باستحداث ايبارية. ما حالية قائمة يبيبديديديديديبديليها تكاليف لها ييي٣٠.ويكيبيديا,الهجوم ويكيبيديا.</string>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02-News detalise_dark-2" translatesAutoresizingMaskIntoConstraints="NO" id="RyD-fr-y3y">
+                                                <rect key="frame" x="0.0" y="833" width="375" height="179"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="179" id="hvQ-N3-qZR"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ولي العهد محمد بن سلمان" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlb-Lu-TOS">
+                                                <rect key="frame" x="0.0" y="1012" width="375" height="17"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  بحلول الخارجية يكن :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tP1-h8-Dcw">
+                                                <rect key="frame" x="212" y="1063" width="155" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="CHA-9a-tE7">
+                                                <rect key="frame" x="8" y="1089.5" width="359" height="253.5"/>
+                                                <string key="text">-فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة واقتصار أي يبق. ما وعُرفت استعملت أخر, هذه لم وبداية المتّبعة, في أما يعبأ باستحداث ايبارية. ما حالية قائمة يبيبديديديديديبديليها تكاليف لها ييي٣٠.ويكيبيديا,الهجوم ويكيبيديا. -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة واقتصار أي يبق. ما وعُرفت استعملت أخر, هذه لم وبداية المتّبعة, في أما يعبأ باستحداث ايبارية. ما حالية قائمة يبيبديديديديديبديليها تكاليف لها ييي٣٠.ويكيبيديا,الهجوم ويكيبيديا.   -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة </string>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="a1W-Wv-zfc">
+                                                <rect key="frame" x="0.0" y="1360" width="365" height="299"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="299" id="RTi-H8-mgm"/>
+                                                    <constraint firstAttribute="width" constant="365" id="jtH-sq-76j"/>
+                                                </constraints>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eOv-yo-wH7">
+                                                    <size key="itemSize" width="167" height="302"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cv" id="gOd-kE-gSr" customClass="CollectionViewCell" customModule="Design" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="-1.5" width="167" height="302"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="167" height="302"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02-News detalise_dark-3" translatesAutoresizingMaskIntoConstraints="NO" id="lM1-jL-QYX">
+                                                                    <rect key="frame" x="0.0" y="15" width="169" height="195"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="195" id="dVX-G4-46K"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="-فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة-فرنسا لان أيمضبيبديدالمزيفة وقة" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="sYO-63-w5m">
+                                                                    <rect key="frame" x="0.0" y="197" width="169" height="105"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="105" id="YRe-4K-trY"/>
+                                                                    </constraints>
+                                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                                </textView>
+                                                            </subviews>
+                                                        </view>
+                                                        <constraints>
+                                                            <constraint firstItem="lM1-jL-QYX" firstAttribute="leading" secondItem="sYO-63-w5m" secondAttribute="leading" id="5nA-O3-LXm"/>
+                                                            <constraint firstAttribute="bottom" secondItem="sYO-63-w5m" secondAttribute="bottom" id="6CQ-dZ-EWH"/>
+                                                            <constraint firstItem="lM1-jL-QYX" firstAttribute="trailing" secondItem="sYO-63-w5m" secondAttribute="trailing" id="e83-VB-1Sa"/>
+                                                            <constraint firstAttribute="trailingMargin" secondItem="lM1-jL-QYX" secondAttribute="trailing" constant="-10" id="owC-1d-eFZ"/>
+                                                            <constraint firstItem="lM1-jL-QYX" firstAttribute="top" secondItem="gOd-kE-gSr" secondAttribute="topMargin" constant="-13" id="vA4-Uy-dAF"/>
+                                                            <constraint firstItem="lM1-jL-QYX" firstAttribute="leading" secondItem="gOd-kE-gSr" secondAttribute="leading" id="znF-DE-arG"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="imageView" destination="lM1-jL-QYX" id="QMN-Yc-zne"/>
+                                                            <outlet property="textView" destination="sYO-63-w5m" id="3yd-nV-Yqx"/>
+                                                            <segue destination="xw3-Fp-KKh" kind="show" id="jcy-hF-H7s"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                            </collectionView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  بحلول الخارجية يكن :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2i-Jv-wv6">
+                                                <rect key="frame" x="214" y="1730.5" width="151" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="IMV-1j-Div">
+                                                <rect key="frame" x="8" y="1766" width="359" height="247"/>
+                                                <string key="text">-فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة واقتصار أي يبق. ما وعُرفت استعملت أخر, هذه لم وبداية المتّبعة, في أما يعبأ باستحداث ايبارية. ما حالية قائمة يبيبديديديديديبديليها تكاليف لها ييي٣٠.ويكيبيديا,الهجوم ويكيبيديا. -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة واقتصار أي يبق. ما وعُرفت استعملت أخر, هذه لم وبداية المتّبعة, في أما يعبأ باستحداث ايبارية. ما حالية قائمة يبيبديديديديديبديليها تكاليف لها ييي٣٠.ويكيبيديا,الهجوم ويكيبيديا.   -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة </string>
+                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ZfL-xz-CbF" firstAttribute="top" secondItem="naS-gk-GeK" secondAttribute="bottom" constant="28" id="0f7-vf-6wa"/>
+                                            <constraint firstItem="ccn-Yy-rk6" firstAttribute="top" secondItem="ZfL-xz-CbF" secondAttribute="bottom" constant="14" id="1xO-QM-iUP"/>
+                                            <constraint firstAttribute="trailing" secondItem="Dlb-Lu-TOS" secondAttribute="trailing" id="3Xn-Cp-gbf"/>
+                                            <constraint firstItem="naS-gk-GeK" firstAttribute="top" secondItem="SrZ-CS-ol5" secondAttribute="top" constant="469" id="3aq-wT-TLS"/>
+                                            <constraint firstItem="CHA-9a-tE7" firstAttribute="leading" secondItem="ccn-Yy-rk6" secondAttribute="leading" id="7qP-ZC-ief"/>
+                                            <constraint firstItem="Dlb-Lu-TOS" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" id="8Gg-gn-iBW"/>
+                                            <constraint firstItem="IMV-1j-Div" firstAttribute="leading" secondItem="CHA-9a-tE7" secondAttribute="leading" id="Ay4-VF-q0K"/>
+                                            <constraint firstAttribute="trailing" secondItem="ccn-Yy-rk6" secondAttribute="trailing" constant="8" id="DUe-vc-1Ch"/>
+                                            <constraint firstAttribute="trailing" secondItem="f2i-Jv-wv6" secondAttribute="trailing" constant="10" id="Gsx-Iv-OqE"/>
+                                            <constraint firstItem="6Se-Jj-dgP" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" constant="284" id="IFS-iU-IoK"/>
+                                            <constraint firstItem="a1W-Wv-zfc" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" id="Iik-Td-RWg"/>
+                                            <constraint firstItem="ccn-Yy-rk6" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" constant="8" id="JJe-WE-V9T"/>
+                                            <constraint firstAttribute="bottom" secondItem="IMV-1j-Div" secondAttribute="bottom" constant="37" id="JJo-As-hQb"/>
+                                            <constraint firstItem="Dlb-Lu-TOS" firstAttribute="top" secondItem="RyD-fr-y3y" secondAttribute="bottom" id="Kw8-5G-Cdn"/>
+                                            <constraint firstItem="a1W-Wv-zfc" firstAttribute="top" secondItem="CHA-9a-tE7" secondAttribute="bottom" constant="17" id="MoJ-ql-7I3"/>
+                                            <constraint firstItem="Dbv-TC-f4u" firstAttribute="top" secondItem="6Se-Jj-dgP" secondAttribute="bottom" constant="25" id="Mp8-zj-Eps"/>
+                                            <constraint firstItem="6Se-Jj-dgP" firstAttribute="top" secondItem="N2c-U8-eD8" secondAttribute="bottom" constant="21.5" id="ONH-oT-Xrr"/>
+                                            <constraint firstItem="5Qa-gq-hOf" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" constant="71" id="Pgm-Lh-KIf"/>
+                                            <constraint firstItem="tP1-h8-Dcw" firstAttribute="top" secondItem="Dlb-Lu-TOS" secondAttribute="bottom" constant="34" id="PiH-y4-elN"/>
+                                            <constraint firstAttribute="trailing" secondItem="Dbv-TC-f4u" secondAttribute="trailing" constant="10" id="Pts-VN-8v9"/>
+                                            <constraint firstItem="RyD-fr-y3y" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" id="QA3-R8-ft4"/>
+                                            <constraint firstItem="5UL-13-vtg" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" id="SZB-ot-1GE"/>
+                                            <constraint firstItem="CHA-9a-tE7" firstAttribute="top" secondItem="tP1-h8-Dcw" secondAttribute="bottom" constant="7" id="SzK-Xr-ftF"/>
+                                            <constraint firstItem="f2i-Jv-wv6" firstAttribute="top" secondItem="a1W-Wv-zfc" secondAttribute="bottom" constant="71.5" id="TXi-hz-CKj"/>
+                                            <constraint firstItem="f2i-Jv-wv6" firstAttribute="width" secondItem="SrZ-CS-ol5" secondAttribute="height" multiplier="151:2050" id="UiL-V9-clm"/>
+                                            <constraint firstAttribute="trailing" secondItem="N2c-U8-eD8" secondAttribute="trailing" id="Xi7-O7-N5i"/>
+                                            <constraint firstItem="IMV-1j-Div" firstAttribute="trailing" secondItem="CHA-9a-tE7" secondAttribute="trailing" id="YRR-xJ-tMf"/>
+                                            <constraint firstItem="Dbv-TC-f4u" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" constant="10" id="ZsL-yb-TlW"/>
+                                            <constraint firstAttribute="trailing" secondItem="tP1-h8-Dcw" secondAttribute="trailing" constant="8" id="aiz-QB-N9x"/>
+                                            <constraint firstItem="s5L-xd-6jQ" firstAttribute="top" secondItem="N2c-U8-eD8" secondAttribute="bottom" constant="23.5" id="azj-nY-xRt"/>
+                                            <constraint firstItem="f2i-Jv-wv6" firstAttribute="centerX" secondItem="tP1-h8-Dcw" secondAttribute="centerX" id="b51-1R-Iyj"/>
+                                            <constraint firstAttribute="trailing" secondItem="a1W-Wv-zfc" secondAttribute="trailing" constant="10" id="c56-dF-9q9"/>
+                                            <constraint firstItem="N2c-U8-eD8" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" id="cWM-8v-liY"/>
+                                            <constraint firstItem="ZfL-xz-CbF" firstAttribute="trailing" secondItem="SrZ-CS-ol5" secondAttribute="trailingMargin" id="dEZ-X7-dtT"/>
+                                            <constraint firstAttribute="bottom" secondItem="f2i-Jv-wv6" secondAttribute="bottom" constant="299" id="e4i-a7-CKn"/>
+                                            <constraint firstItem="c6q-Bu-EeZ" firstAttribute="top" secondItem="SrZ-CS-ol5" secondAttribute="top" id="fzd-DY-uaA"/>
+                                            <constraint firstAttribute="trailing" secondItem="s5L-xd-6jQ" secondAttribute="trailing" constant="15" id="glA-qL-CBh"/>
+                                            <constraint firstItem="N2c-U8-eD8" firstAttribute="top" secondItem="c6q-Bu-EeZ" secondAttribute="bottom" constant="20" id="hNc-qF-aKY"/>
+                                            <constraint firstItem="naS-gk-GeK" firstAttribute="leading" secondItem="Dbv-TC-f4u" secondAttribute="leading" id="kAL-aW-bL1"/>
+                                            <constraint firstItem="c6q-Bu-EeZ" firstAttribute="leading" secondItem="SrZ-CS-ol5" secondAttribute="leading" constant="15" id="lSj-UQ-cjC"/>
+                                            <constraint firstItem="tP1-h8-Dcw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SrZ-CS-ol5" secondAttribute="leading" constant="20" symbolic="YES" id="lfg-SO-3n3"/>
+                                            <constraint firstItem="naS-gk-GeK" firstAttribute="top" secondItem="5UL-13-vtg" secondAttribute="bottom" constant="21" id="mBh-MT-YAA"/>
+                                            <constraint firstItem="ZfL-xz-CbF" firstAttribute="leading" secondItem="5Qa-gq-hOf" secondAttribute="trailing" constant="18" id="o3F-3l-WP1"/>
+                                            <constraint firstAttribute="trailing" secondItem="5UL-13-vtg" secondAttribute="trailing" id="oA6-12-Ioc"/>
+                                            <constraint firstItem="CHA-9a-tE7" firstAttribute="trailing" secondItem="tP1-h8-Dcw" secondAttribute="trailing" id="oo9-2l-pdl"/>
+                                            <constraint firstItem="s5L-xd-6jQ" firstAttribute="leading" secondItem="6Se-Jj-dgP" secondAttribute="trailing" constant="8" id="p4n-GF-xoK"/>
+                                            <constraint firstItem="IMV-1j-Div" firstAttribute="top" secondItem="f2i-Jv-wv6" secondAttribute="bottom" constant="15" id="qeP-nJ-Juz"/>
+                                            <constraint firstItem="5UL-13-vtg" firstAttribute="top" secondItem="Dbv-TC-f4u" secondAttribute="bottom" constant="8" id="rAu-Hi-XQa"/>
+                                            <constraint firstItem="RyD-fr-y3y" firstAttribute="top" secondItem="ccn-Yy-rk6" secondAttribute="bottom" constant="-6" id="sgI-Pb-smI"/>
+                                            <constraint firstItem="5Qa-gq-hOf" firstAttribute="top" secondItem="naS-gk-GeK" secondAttribute="bottom" constant="46" id="sux-pr-hJo"/>
+                                            <constraint firstAttribute="trailing" secondItem="RyD-fr-y3y" secondAttribute="trailing" id="xOJ-rB-htt"/>
+                                            <constraint firstAttribute="trailing" secondItem="c6q-Bu-EeZ" secondAttribute="trailing" constant="15" id="yUA-JE-gb7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="SrZ-CS-ol5" secondAttribute="bottom" id="Fky-WL-9Kd"/>
+                                    <constraint firstAttribute="trailing" secondItem="SrZ-CS-ol5" secondAttribute="trailing" id="M8v-PD-Dtf"/>
+                                    <constraint firstItem="SrZ-CS-ol5" firstAttribute="leading" secondItem="vqV-L5-qtb" secondAttribute="leading" id="aup-Jb-egu"/>
+                                    <constraint firstItem="SrZ-CS-ol5" firstAttribute="top" secondItem="vqV-L5-qtb" secondAttribute="top" id="obe-Pe-pKS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vqV-L5-qtb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="FP1-Wa-cA1"/>
+                            <constraint firstItem="SrZ-CS-ol5" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="OFt-2d-H5Q"/>
+                            <constraint firstItem="SrZ-CS-ol5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="Yty-Ri-611"/>
+                            <constraint firstItem="vqV-L5-qtb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bNa-ut-2iB"/>
+                            <constraint firstItem="vqV-L5-qtb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="e2r-4y-mnx"/>
+                            <constraint firstAttribute="bottom" secondItem="vqV-L5-qtb" secondAttribute="bottom" id="f5i-z9-rks"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3tA-4C-O8G"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="2050"/>
+                    <connections>
+                        <outlet property="collectionView" destination="a1W-Wv-zfc" id="axQ-dY-hvR"/>
+                        <outlet property="profileImageView" destination="ZfL-xz-CbF" id="Dik-Vf-nUC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2948" y="116.94152923538232"/>
+        </scene>
+        <!--Full Screen View Controller-->
+        <scene sceneID="3sW-Ad-GEc">
+            <objects>
+                <viewController storyboardIdentifier="FullScreenViewController" id="xw3-Fp-KKh" customClass="FullScreenViewController" customModule="Design" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="WKT-PL-Wge">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="j2C-HD-vMC">
+                            <size key="itemSize" width="371" height="296"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="fullcell" id="Laq-z5-biy" customClass="FullCollectionViewCell" customModule="Design" customModuleProvider="target">
+                                <rect key="frame" x="2" y="0.0" width="371" height="296"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="371" height="296"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                    </collectionView>
+                    <connections>
+                        <outlet property="collectionView" destination="WKT-PL-Wge" id="Onu-7U-Wbg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wAJ-uN-Wix" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3903.1999999999998" y="-296.40179910044981"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gia-nt-gts">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ibv-E5-XA0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HC4-dh-6bf">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2jV-wV-fRg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W19-2b-f68" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2008.8" y="116.49175412293854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="02-News detalise_dark" width="738" height="455"/>
+        <image name="02-News detalise_dark-2" width="743" height="523"/>
+        <image name="02-News detalise_dark-3" width="577" height="662"/>
+        <image name="chat-circular-bubble-with-message-text-lines" width="24" height="24"/>
+        <image name="clock" width="24" height="24"/>
+        <image name="fire-2" width="24" height="24"/>
+        <image name="heart-2" width="24" height="24"/>
+    </resources>
+</document>
