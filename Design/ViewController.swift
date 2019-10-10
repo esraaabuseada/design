@@ -24,6 +24,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     
     var textArray = [" -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة-فرنسا لان أيمضبيبديدالمزيفة وقة"," -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة-فرنسا لان أيمضبيبديدالمزيفة وقة"," -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة-فرنسا لان أيمضبيبديدالمزيفة وقة"," -فرنسا لان أيمضبيبديدالمزيفة وق أ فشكّل الإثنان قد, مكثّفة-فرنسا لان أيمضبيبديدالمزيفة وقة"]
     
+     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -46,16 +48,36 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         
         return cell
     }
+//    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+//        selectedRow = indexPath.row
+//
+//        self.performSegue(withIdentifier: "fullsegue", sender: self)
+//
+//    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//
+//            if (segue.identifier == "userSelectSegue") {
+//
+//                let nextVC = segue.destination as! FullScreenViewController
+//                nextVC.photos = [imageArray[selectedRow]]
+//                nextVC.indexPath = selectedRow
+//            }
+//
+//    }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let fvc = storyboard?.instantiateViewController(withIdentifier:"FullScreenViewController") as! FullScreenViewController
+       // let fvc = storyboard?.instantiateViewController(withIdentifier:"FullScreenViewController") as! FullScreenViewController
+        
+        let fvc : FullScreenViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FullScreenViewController") as! FullScreenViewController
         fvc.photos = imageArray
-        print(fvc.photos!.count)
+        print(fvc.photos.count)
         fvc.indexPath = indexPath
-        
-        
-        fvc.navigationController?.pushViewController(fvc, animated: true)
-        
-        
+         print(fvc.indexPath)
+
+        navigationController?.pushViewController(fvc, animated: true)
+
+
     }
 
 

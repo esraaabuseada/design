@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FullCollectionViewCell" customModule="Design" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="235" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="235" height="152"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eln-Dt-rdw">
+                        <rect key="frame" x="0.0" y="0.0" width="235" height="152"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="THk-Jr-SAo">
+                                <rect key="frame" x="0.0" y="0.0" width="235" height="152"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" secondItem="THk-Jr-SAo" secondAttribute="height" id="Otg-4m-Kwr"/>
+                            <constraint firstAttribute="width" secondItem="THk-Jr-SAo" secondAttribute="width" id="WlD-av-6ZB"/>
+                            <constraint firstAttribute="bottom" secondItem="THk-Jr-SAo" secondAttribute="bottom" id="cfe-KS-U1F"/>
+                            <constraint firstItem="THk-Jr-SAo" firstAttribute="top" secondItem="Eln-Dt-rdw" secondAttribute="top" id="pEp-3z-cLh"/>
+                            <constraint firstItem="THk-Jr-SAo" firstAttribute="leading" secondItem="Eln-Dt-rdw" secondAttribute="leading" id="xaJ-MS-Xox"/>
+                            <constraint firstAttribute="trailing" secondItem="THk-Jr-SAo" secondAttribute="trailing" id="xfu-nB-Wzw"/>
+                        </constraints>
+                    </scrollView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Eln-Dt-rdw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Uje-6K-aGW"/>
+                <constraint firstAttribute="trailing" secondItem="Eln-Dt-rdw" secondAttribute="trailing" id="gQI-ro-NnF"/>
+                <constraint firstItem="Eln-Dt-rdw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="n5W-oD-DKZ"/>
+                <constraint firstAttribute="bottom" secondItem="Eln-Dt-rdw" secondAttribute="bottom" id="rdU-RI-7xn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="235" height="152"/>
+            <connections>
+                <outlet property="photoView" destination="THk-Jr-SAo" id="p0p-eA-Ecz"/>
+                <outlet property="scrollView" destination="Eln-Dt-rdw" id="BIc-WB-Bls"/>
+            </connections>
+            <point key="canvasLocation" x="173.18840579710147" y="101.78571428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

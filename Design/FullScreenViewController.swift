@@ -10,29 +10,43 @@ import UIKit
 
 class FullScreenViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
     
-
+  
+    
     @IBOutlet var collectionView: UICollectionView!
     
-    var photos: [UIImage]?
+    var photos = [UIImage]()
     var indexPath :IndexPath!
+ 
+  
+  
+    
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("viewDidLoad",photos)
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
-   
-
+    
+       print(indexPath)
+        print(photos.count)
+     collectionView.register(UINib(nibName: "FullCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FullCollectionViewCell")
+        
+        collectionView.performBatchUpdates(nil){(result) in self.collectionView.scrollToItem(at: self.indexPath, at: .centeredHorizontally, animated: false)}
+          
         // Do any additional setup after loading the view.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear",photos)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return photos!.count
+        return photos.count
     
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "fullcell", for: indexPath) as! FullCollectionViewCell
-        cell.photoView.image = photos![indexPath.row]
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FullCollectionViewCell", for: indexPath) as! FullCollectionViewCell
+        cell.photoView.image = photos[indexPath.item]
         return cell
     }
     
